@@ -222,28 +222,28 @@
 
         public static function ver_menu()
         {
-            $id_usuario = $_GET["id"];
-            $objUsuario  = new usuario_model();
-            $objUsuario->setId($id_usuario);
-            $datos_usuario = $objUsuario->ver_datos();
-            $nombre_empresa = $datos_usuario["nombre_restaurante"];
-            $logo = $datos_usuario["logo_empresa"];
-            $imagen_fondo = $datos_usuario["imagen_fondo"];
+            //$id_usuario = $_GET["id"];
+            //$objUsuario  = new usuario_model();
+            //$objUsuario->setId($id_usuario);
+            //$datos_usuario = $objUsuario->ver_datos();
+            //$nombre_empresa = $datos_usuario["nombre_restaurante"];
+            //$logo = $datos_usuario["logo_empresa"];
+            //$imagen_fondo = $datos_usuario["imagen_fondo"];
 
-            $objcategorias = new categoria_plato_model();
-            $objcategorias->set_id_usuario(new MongoDB\BSON\ObjectId($id_usuario));
-            $lista_categoria = $objcategorias->listar_categorias();
-            foreach ($lista_categoria as $l)
-                $listaCat[] = $l;
-            $objplatos = new plato_model();
-            $objplatos->set_id_usuario(new MongoDB\BSON\ObjectId($id_usuario));
-            $lista_plato = $objplatos->mostrar_platos();
-            foreach ($lista_plato as $p)
-                $listaPlat[] = $p;
+            //$objcategorias = new categoria_plato_model();
+            //$objcategorias->set_id_usuario(new MongoDB\BSON\ObjectId($id_usuario));
+            //$lista_categoria = $objcategorias->listar_categorias();
+            //foreach ($lista_categoria as $l)
+            //    $listaCat[] = $l;
+            //$objplatos = new plato_model();
+            //$objplatos->set_id_usuario(new MongoDB\BSON\ObjectId($id_usuario));
+            //$lista_plato = $objplatos->mostrar_platos();
+            //foreach ($lista_plato as $p)
+            //    $listaPlat[] = $p;
                 
             require_once("views/template/header.php");
             require_once("views/template/header2.php");
-            //require_once("views/usuario/ver_menu.php");
+            require_once("views/usuario/ver_menu.php");
             require_once("views/template/footer.php");
         }
     }

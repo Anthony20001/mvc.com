@@ -129,7 +129,7 @@
 
 <!-- ----- DEREK ----- -->
     
-    <!-- <div class="section bg-light" id="section-menu" data-aos="fade-up">
+     <div class="section bg-light" id="section-menu" data-aos="fade-up">
     <div class="container">
         <div class="row section-heading justify-content-center mb-5">
             <div class="col-md-8 text-center">
@@ -297,7 +297,8 @@
 
         </div>
     </div>
-</div>  -->
+</div>
+<!--______________________________________________ -->
 
 <div class="section bg-white services-section" data-aos="fade-up">
     <div class="container">
