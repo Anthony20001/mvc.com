@@ -314,7 +314,7 @@
                         <span class="flaticon-soup"></span>
                     </div>
                     <div class="media-body">
-                        <h3>Buena calidad</h3>
+                        <h3>Acceso 24/7</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                         <span class="flaticon-vegetables"></span>
                     </div>
                     <div class="media-body">
-                        <h3>Comida variada</h3>
+                        <h3>Servicio personalizado</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
@@ -336,46 +336,11 @@
                         <span class="flaticon-pancake"></span>
                     </div>
                     <div class="media-body">
-                        <h3>Embutidos y panes</h3>
+                        <h3>Paga una sola vez</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="500">
-                <div class="media feature-icon d-block text-center">
-                    <div class="icon">
-                        <span class="flaticon-tray"></span>
-                    </div>
-                    <div class="media-body">
-                        <h3>Orden rápida</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
-                <div class="media feature-icon d-block text-center">
-                    <div class="icon">
-                        <span class="flaticon-salad"></span>
-                    </div>
-                    <div class="media-body">
-                        <h3>Buen servicio</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="500">
-                <div class="media feature-icon d-block text-center">
-                    <div class="icon">
-                        <span class="flaticon-chicken"></span>
-                    </div>
-                    <div class="media-body">
-                        <h3>Pollos y carnes</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
